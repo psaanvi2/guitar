@@ -1,7 +1,7 @@
 .container {
     display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 2fr 6fr 1fr;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 3fr 1fr 8fr 1fr ;
 }
 
 .top{
@@ -23,6 +23,7 @@
     margin: 10px;
     padding: 10px;
     color: black;
+    font-size: 22px;
     text-shadow: 2px 4px 6px white
 }
 
@@ -56,7 +57,7 @@
     flex: 40%;
     margin: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
+    font-size: 26px;
     margin: 10px;
     text-shadow: 2px 4px 6px rgb(99, 98, 98)
 }
